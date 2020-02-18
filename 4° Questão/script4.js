@@ -1,0 +1,21 @@
+// Resolução da quarta questão.
+
+const totalN = prompt("Informe o valor de linhas e colunas");
+//let tabela;
+if (!isNaN(totalN) && totalN >0){
+    let tabela = "<table>";
+
+    for (let i=0; i < totalN; i++) {
+        tabela +="<tr>";
+        for(let c=0; c< totalN; c++)
+            if ((c+i)==totalN-1){
+                tabela += "<td style='color:blue'>" + c + 1 + "</td>";
+            } else{
+                tabela += "<td>" + c + 1 + "</td>";
+            }
+    }
+    tabela += "</td>";
+    tabela += "</table>"
+    document.body.innerHTML += tabela;
+
+}
