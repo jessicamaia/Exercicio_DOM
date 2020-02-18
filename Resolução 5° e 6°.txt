@@ -1,0 +1,8 @@
+Resolução - PWEB 2
+Jéssica Maia
+
+5a. Verdade, uma vez que procura-se o elemento que vem imediatamente após o último, ou seja, retorna-se null.
+
+5b. Verdade, pois procura-se o elemento que antecede o primeiro elemento, retornando null.
+
+6.O único que consegue ter acesso a todos os filhos sem utilizar funções é o body. No caso retornaria informando que não é uma função válida.
